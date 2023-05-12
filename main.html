@@ -11,7 +11,7 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-<form>
+<form method="post">
 	<div>
 		<label for="name">Name</label><br>
 		<label><input type="text" name="name" id="name" placeholder="Name" required></label>
@@ -25,9 +25,9 @@
 	<div>
 		<label for="gender">Gender</label><br>
 		<label><input type="radio" name="gender" id="gender_m" value="male" required></label>
-		<label for="male">Male</label>
+		<label for="gender_m">Male</label>
 		<label><input type="radio" name="gender" id="gender_f" value="female" required></label>
-		<label for="female">Female</label>
+		<label for="gender_f">Female</label>
 	</div>
 
 			<div>
@@ -62,8 +62,8 @@
 	</div>
 
 	<div>
-		<label for="checkbox"><b>I agree to the TOS</b></label>
-		<label><input type="checkbox" name="checkbox" id="checkbox" required></label>
+		<label for="tos"><b>I agree to the TOS</b></label>
+		<label><input type="checkbox" name="tos" id="tos" required></label>
 	</div>
 
 	<button type="submit">Submit</button>
